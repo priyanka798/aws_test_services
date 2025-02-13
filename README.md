@@ -1,8 +1,12 @@
-# S3 Bucket Creation 
+# AWS S3 and IAM Configuration #
+
+- This document outlines the setup of AWS S3 for secure object storage and IAM for access control. It covers S3 bucket creation, IAM roles and policies, and security best practices like least privilege access and encryption.
+
+## S3 Bucket Creation ## 
 
 Amazon S3 (Simple Storage Service) is a scalable storage service that allows users to store and retrieve any amount of data from anywhere on the web.
 
-## Features ## 
+### Features ### 
 
 - **Scalability** – Automatically scales to handle large amounts of data without capacity planning.  
 - **High Availability & Durability** – 99.99% availability and 99.999999999% (11 nines) durability.  
@@ -10,7 +14,7 @@ Amazon S3 (Simple Storage Service) is a scalable storage service that allows use
 - **Cost-Effective** – Pay-as-you-go pricing with multiple storage classes to optimize costs.  
 - **Easy Integration** – Seamlessly integrates with AWS services like Lambda, Redshift, CloudFront, and more.  
 
-##  Prerequisites  
+### Prerequisites ### 
 Before creating an S3 bucket, ensure you have:  
 - An **AWS account**  
 - **AWS CLI** installed and configured (`aws configure`)  
@@ -18,7 +22,7 @@ Before creating an S3 bucket, ensure you have:
 - **Boto3** installed (`pip install boto3`)  
 
 
-### Use Cases
+### Use Cases ###
 - **Data Backup and Restore**
 - **Big Data Analytics**
 - **Static Website Hosting**
@@ -26,13 +30,13 @@ Before creating an S3 bucket, ensure you have:
 
 This document contains a Python script to create an S3 bucket using the AWS SDK for Python (boto3).
 
-## Files
+### Files ###
 
 - `create_s3.py`: The main script to create an S3 bucket.
 
-## Usage
+### Usage ###
 
-### Using the Python Script
+### Using the Python Script ###
 
 1. Install the required dependencies:
 ```sh
@@ -67,7 +71,7 @@ if __name__ == "__main__":
 ![Alt Text](week-1/day-1/images/image.png)
 
 
-### AWS S3 Bucket Creation Using AWS CLI
+### AWS S3 Bucket Creation Using AWS CLI ###
 #### Step 1: Configure AWS CLI ####
 
  Run the following command and enter your credentials when prompted:
@@ -89,13 +93,12 @@ aws s3 mb s3://data2122026 --region us-east-1
 
 ![alt text](week-1/day-1/images/image.png)
 
-#### Configuration
+#### Configuration ####
 
 - The script uses the default AWS credentials and configuration. Make sure your AWS credentials are configured properly.
 - You can change the [bucket_name](http://_vscodecontentref_/2) and [region](http://_vscodecontentref_/3) parameters in the script as needed.
 
-
-# AWS IAM User Creation Guide  
+# AWS IAM User Creation Guide #
 - AWS IAM (Identity and Access Management) is a service that helps you securely manage access to AWS resources. It allows you to create and control users, groups, roles, and permissions in AWS.
 
 ### Advantages of IAM ###
