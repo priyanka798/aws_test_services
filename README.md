@@ -102,9 +102,10 @@ Run the following command to create an IAM user:
 
 ```sh
 aws iam create-user --user-name MyIAMUser
-```
 
+```
 ![alt text](image-2.png)
+
 
 ## 3. Using Python (boto3)  
 
