@@ -56,7 +56,7 @@ if __name__ == "__main__":
     bucket_name = "data1233027"
     create_s3_bucket(bucket_name)
  ```
-![alt text](image.png)
+![alt text](image-1.png)
 
 ### AWS S3 Bucket Creation Using AWS CLI
 #### Step 1: Configure AWS CLI ####
@@ -78,7 +78,7 @@ Once configured, create the S3 bucket using:
 aws s3 mb s3://data2122026 --region us-east-1
 ```
 
-![alt text](image.png)
+![alt text](image-5.png)
 
 #### Configuration
 
@@ -104,7 +104,7 @@ Run the following command to create an IAM user:
 aws iam create-user --user-name MyIAMUser
 
 ```
-![alt text](image-2.png)
+![alt text](image-6.png)
 
 
 ## 3. Using Python (boto3)  
@@ -190,4 +190,4 @@ if __name__ == "__main__":
     main()
 
 ```  
-![alt text](image-3.png)
+![alt text](image-7.png)
