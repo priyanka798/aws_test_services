@@ -70,6 +70,13 @@ if __name__ == "__main__":
  ```
 ![Alt Text](week-1/day-1/images/image-1.png)
 
+### Upload a File to S3 ###
+- To upload a file to the S3 bucket, use the following command
+
+```
+aws s3 cp "C:\Users\priya\Downloads\DATASETS-20250129T232829Z-001\DATASETS\Amazon (2).csv" s3://data1233027/
+```
+![alt text](week-1/day-1/images/image5.png)
 
 ### AWS S3 Bucket Creation Using AWS CLI ###
 #### Step 1: Configure AWS CLI ####
@@ -91,7 +98,7 @@ Once configured, create the S3 bucket using:
 aws s3 mb s3://data2122026 --region us-east-1
 ```
 
-![alt text](week-1/day-1/images/image.png)
+![alt text](week-1/day-1/images/image-1.png)
 
 #### Configuration ####
 
