@@ -68,7 +68,7 @@ if __name__ == "__main__":
     bucket_name = "data1233027"
     create_s3_bucket(bucket_name)
  ```
-![Alt Text](week-1/day-1/images/image.png)
+![Alt Text](week-1\day-1\images\image-1.png)
 
 
 ### AWS S3 Bucket Creation Using AWS CLI ###
