@@ -47,7 +47,7 @@ pip install boto3
 ```sh
 python create_s3.py
 ```
-```
+```python
 import boto3
 
 def create_s3_bucket(bucket_name, region="us-east-1"):
@@ -157,7 +157,7 @@ aws iam create-user --user-name MyIAMUser
 ```sh
 python create_IAM.py
 ```
-```
+```python
 
 import boto3
 import json
