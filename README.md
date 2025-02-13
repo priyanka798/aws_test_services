@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # S3 Bucket Creation 
 
 Amazon S3 (Simple Storage Service) is a scalable storage service that allows users to store and retrieve any amount of data from anywhere on the web.
@@ -188,7 +187,4 @@ def main():
 
 if __name__ == "__main__":
     main()
-
- ```
- ![alt text](image-3.png)
-
+![alt text](image-3.png)
